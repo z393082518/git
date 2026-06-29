@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & secrets (do not commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Logs & temp files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Dependencies (uncomment when your project uses them)
+# node_modules/
+# __pycache__/
+# *.pyc
+# .venv/
+# venv/
+# dist/
+# build/
+# target/
